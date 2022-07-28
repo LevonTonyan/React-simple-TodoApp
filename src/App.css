@@ -1,0 +1,29 @@
+.App {
+
+  
+
+ height: auto;
+}
+
+.list_block {
+  width: 153px;
+
+  background-color: rgb(175, 199, 199);
+  
+}
+
+.btn_x {
+background-color:transparent;
+border: 0px;
+
+
+}
+
+.item {
+ 
+  
+  border: 1px solid;
+  margin: 1px;
+}
+
+
