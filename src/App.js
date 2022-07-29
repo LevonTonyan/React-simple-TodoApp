@@ -48,7 +48,7 @@ function App() {
 
 
     return (
-    <div>
+    <div className='App'>
       <div className='input_block'>
         <TodoForm onAdd={onAdd}/>
       </div>

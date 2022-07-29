@@ -5,7 +5,7 @@ function TodoFooter ({todos,checkMark}){
 
 
     return (
-        <div>
+        <div className="footer">
             <span>{`${completed}/${todosCount} completed`}</span>
             <button onClick={checkMark}>Clear completed</button>
          
