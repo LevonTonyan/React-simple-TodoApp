@@ -34,7 +34,7 @@ function App() {
   };
   let onChange = (newTodo) => {
    setState(todos.map((todo) => {
-      if(todo.id !== newTodo.id){
+      if(todo.id === newTodo.id){
         return newTodo;
       }
       return todo
@@ -48,16 +48,17 @@ function App() {
 
 
     return (
-    <div className='App'>
+    <div>
       <div className='input_block'>
         <TodoForm onAdd={onAdd}/>
       </div>
       <div className='list_block'> 
-        
+       
        <TaskList todos={todos}
                   onChange = {onChange}
                   onDelete = {onDelete}
        />
+       
        
       </div>
         <div className='task_count_bar'>
@@ -66,6 +67,7 @@ function App() {
         </div>
     </div>
   );
+  
 }
 
 export default App;

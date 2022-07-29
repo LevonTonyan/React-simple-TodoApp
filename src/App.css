@@ -1,8 +1,12 @@
 .App {
 
-  
+background-color:bisque;
+height: 800px;
+display: flex;
+justify-content: center;
 
- height: auto;
+
+ 
 }
 
 .list_block {
@@ -27,6 +31,10 @@ margin-left: auto;
   justify-content: space-between;
   border: 1px solid;
   margin: 1px;
+}
+
+.adding_block {
+ 
 }
 
 

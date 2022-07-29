@@ -5,7 +5,7 @@ function TaskList({todos, onChange, onDelete}) {
     
 
     return (
-        <div className="list_item">
+        <div>
             {
                 todos.map((todo) => {
                     return <Todo key = {todo.id}

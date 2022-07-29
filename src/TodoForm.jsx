@@ -8,7 +8,8 @@ function TodoForm ({onAdd}) {
     
 
     return (
-        <form onSubmit={(e) => {
+        <div className='adding_block'>
+                <form onSubmit={(e) => {
            e.preventDefault();
             onAdd(text);
             setText("")
@@ -18,6 +19,9 @@ function TodoForm ({onAdd}) {
             }}/>
             <button>Add</button>
         </form>
+
+        </div>
+        
     );
 
 }
